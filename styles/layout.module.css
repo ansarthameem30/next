@@ -1,0 +1,97 @@
+
+  /* layout.module.css */
+.container {
+    padding: 20px;
+  }
+  
+  .navbar {
+    background-color: #f1f1f1;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #0070f3;
+    text-decoration: underline;
+  }
+  
+  .layout-main {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .layout-heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .layout-content {
+    font-size: 18px;
+    color: #777;
+    line-height: 1.5;
+  }
+  
+  .form-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-container label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .form-container input[type='text'],
+  .form-container input[type='email'] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-container button[type='submit'] {
+    padding: 10px 20px;
+    background-color: #0070f3;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-container button[type='submit']:hover {
+    background-color: #0058c4;
+  }
+  

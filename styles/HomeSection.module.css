@@ -1,0 +1,19 @@
+/* HomeSection.module.css */
+.home-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .home-heading {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .home-content {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.5;
+  }
+  

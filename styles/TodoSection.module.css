@@ -1,0 +1,40 @@
+/* TodoSection.module.css */
+.todo-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+  
+  .todo-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .todo-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .todo-table th,
+  .todo-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .todo-table th {
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .todo-table td {
+    text-align: center;
+  }
+  
+  .todo-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
